@@ -11,7 +11,7 @@ from colorama import Style;
 #Main Function
 
 def main():
-    print(Fore.GREEN + "PRRRRRRROOOOOOOOOXXXXXXXXYYYYYYYYYYYYRRRRRRRRRRRRAAAAAAAAAAAAKKKKKKKKK.PPPPPPPPPPYYYYYYYYYYYYYYYYYYYYYYY")
+    print(Fore.GREEN + "PRRRRRRROOOOOOOOOXXXXXXXXYYYYYYYYYYYYRRRRRRRRRRRRAAAAAAAAAAAAKKKKKKKKK.PPPPP")
     cmdsParser = argparse.ArgumentParser(description='ProxyTool created get proxies fast and check them.')
     cmdsParser.add_argument("--google", help="Get google proxies.", dest='google', action='store_true', default=False)
     cmdsParser.add_argument("--https", help="Get https proxies.", dest='https', action='store_true', default=False)
